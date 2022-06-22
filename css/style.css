@@ -258,6 +258,22 @@ footer {
   .box-detalles {
     padding: 0; } }
 
+.box-envios {
+  padding: 10%;
+  margin: auto;
+  display: flex; }
+
+.box-nosotros {
+  background-color: whitesmoke;
+  padding: 10%;
+  text-align: center; }
+  .box-nosotros .title-nosotros {
+    color: #191919; }
+    .box-nosotros .title-nosotros .text-nosotros {
+      margin: 10%;
+      padding: 10%;
+      text-align: center; }
+
 .volver {
   text-decoration: none;
   padding: 5%;
