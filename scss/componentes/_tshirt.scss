@@ -32,13 +32,17 @@
 
 
 
-
-.portada-detalle {
-	display: flex;
-	justify-content: center;
-	width: 50%;
+.portada-detalle-tshirt {
+	width: 40%;
 	margin: auto;
+    padding-top: 10%;
+    display: flex;
+    justify-content:center;
+    
+   
 }
+
+
 .title-detalle {
 	text-align: center;
 	color: #191919;
@@ -50,6 +54,12 @@
 	text-align: center;
 }
 @media screen and (max-width: 960px) {
+    .portada-detalle-tshirt {
+        width: 40%;
+        margin: auto;
+        padding-top: 10%;
+    }
+   
 	.box-detalles {
 		flex-direction: column;
 		padding: 0 10%;
@@ -65,3 +75,6 @@
 		padding: 0;
 	}
 }
+
+
+

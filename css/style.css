@@ -232,7 +232,7 @@ footer {
 .portada-detalle {
   display: flex;
   justify-content: center;
-  width: 60%;
+  width: 50%;
   margin: auto; }
 
 .title-detalle {
@@ -273,6 +273,122 @@ footer {
       margin: 10%;
       padding: 10%;
       text-align: center; }
+
+.box-detalles {
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center; }
+  .box-detalles .content-card-detalles {
+    padding: 10px;
+    width: 25%;
+    margin: 20px; }
+    .box-detalles .content-card-detalles .img-detalle {
+      width: 100%;
+      display: block;
+      margin: 0 auto; }
+      .box-detalles .content-card-detalles .img-detalle .card-title {
+        text-align: center;
+        font-family: Roboto;
+        font-size: 32px;
+        margin-bottom: 16px; }
+        .box-detalles .content-card-detalles .img-detalle .card-title .card-article {
+          padding: 0 10px;
+          font-family: Helvetica;
+          color: #333333;
+          font-size: 16px;
+          line-height: 1.6; }
+
+.portada-detalle-tshirt {
+  width: 40%;
+  margin: auto;
+  padding-top: 10%;
+  display: flex;
+  justify-content: center; }
+
+.title-detalle {
+  text-align: center;
+  color: #191919;
+  font-size: 40px; }
+
+.smalldetalle {
+  text-align: center;
+  color: #191919;
+  text-align: center; }
+
+@media screen and (max-width: 960px) {
+  .portada-detalle-tshirt {
+    width: 40%;
+    margin: auto;
+    padding-top: 10%; }
+  .box-detalles {
+    flex-direction: column;
+    padding: 0 10%; }
+  .content-card-detalles {
+    width: 90%;
+    padding: 5px;
+    margin: 10px; } }
+
+@media screen and (max-width: 400px) {
+  .box-detalles {
+    padding: 0; } }
+
+.box-carrito {
+  display: flex;
+  justify-content: center;
+  margin: 5%;
+  padding: 5%;
+  border: 2.5px inset rgba(23, 0, 68, 0.68);
+  border-radius: 10px 10px 10px 10px; }
+
+.btn-carrito {
+  font-family: 'Roboto', Arial, sans-serif;
+  color: #191919;
+  cursor: pointer;
+  padding: 0px 40px;
+  display: inline-block;
+  margin: 15px 30px;
+  text-transform: uppercase;
+  line-height: 2.7em;
+  letter-spacing: 1.5px;
+  font-size: 1em;
+  outline: none;
+  position: relative;
+  font-size: 16px;
+  border: 3px solid wheat;
+  background-color: transparent;
+  border-radius: 0 15px 15px;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s; }
+
+.btn-carrito:before {
+  content: "";
+  position: absolute;
+  right: -3px;
+  bottom: -3px;
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 0 0 35px 35px;
+  border-color: transparent transparent #191919 transparent;
+  z-index: 1; }
+
+.btn-carrito:hover,
+.btn-carrito.hover {
+  border-color: #191919; }
+
+.color-option-envio {
+  border: 2px inset rgba(23, 0, 68, 0.68);
+  border-radius: 10px 10px 10px 10px; }
+
+.size {
+  border: 2px inset rgba(23, 0, 68, 0.68);
+  border-radius: 10px 10px 10px 10px; }
+
+.precio-tshirt {
+  text-align: center; }
 
 .volver {
   text-decoration: none;
