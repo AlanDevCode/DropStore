@@ -250,7 +250,8 @@ footer {
   display: flex;
   justify-content: center;
   width: 50%;
-  margin: auto; }
+  margin: auto;
+  padding-top: 6%; }
 
 .title-detalle {
   text-align: center;
@@ -399,6 +400,9 @@ footer {
 
 .precio-tshirt {
   text-align: center; }
+
+#box-carrusel {
+  padding-top: 4%; }
 
 .volver {
   text-decoration: none;
