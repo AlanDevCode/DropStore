@@ -87,7 +87,8 @@ h3 {
   text-align: center;
   text-decoration: none;
   color: #191919;
-  padding: 5% 5%; }
+  padding: 5% 5%;
+  font-family: 'Roboto'; }
 
 .container-cardboots {
   display: grid;
@@ -324,7 +325,8 @@ footer {
 .title-detalle {
   text-align: center;
   color: #191919;
-  font-size: 40px; }
+  font-size: 40px;
+  font-family: 'Roboto'; }
 
 .smalldetalle {
   text-align: center;
