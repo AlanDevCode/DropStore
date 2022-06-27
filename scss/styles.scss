@@ -9,11 +9,25 @@
 @import"./componentes/tshirt";
 @import"./componentes/seccion-addtocart";
 @import"./componentes/carrusel";
+@import"./componentes/hypervenom";
 
 .volver{
     text-decoration: none;
     padding: 5%;
     margin: 2%;
     text-align: center;
+}
+
+.video{
+  display: flex;
+  justify-content: center;
+  
+}
+
+
+.h1{
+  text-align: center;
+  margin: 1%;
+
 }
 
